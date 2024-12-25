@@ -1,14 +1,10 @@
 # FastCar Assist
 
-Este projeto faz parte da Sprint 6~7 do Programa de Bolsas Compass UOL e AWS. O objetivo deste projeto é criar uma API que recebe frases do usuário e converte-as em arquivos de áudio MP3 utilizando o serviço Polly da AWS. Adicionalmente, foi desenvolvido um chatbot que interage com essa API para gerar respostas em áudio.
+ O objetivo deste projeto é criar uma API que recebe frases do usuário e converte-as em arquivos de áudio MP3 utilizando o serviço Polly da AWS. Adicionalmente, foi desenvolvido um chatbot que interage com essa API para gerar respostas em áudio.
 
 ## Objetivo
 
 O objetivo deste projeto é criar um chatbot interativo que responda às dúvidas dos usuários, oferecendo respostas tanto em texto quanto em áudio. A solução utiliza uma integração serverless com os serviços AWS Lex e Slack, permitindo uma experiência de atendimento automatizado eficiente e flexível.
-
-## Dificuldades conhecidas
-- A equipe teve dificuldades com a criação do Chatbot utilizando o serviço Lex da AWS
-- A equipe também enfrentou dificuldades na integração da parte 2 com a parte 1 do projeto
 
 ## Tecnologias Utilizadas
 
@@ -41,15 +37,14 @@ README.md
 ```
 ## Sumário
 
-1. [Organização da Equipe](#organizacao-da-equipe)
+1. [Organização da Equipe](#organização-da-equipe)
 2. [Explicação do Projeto](#explicação-do-projeto)
 3. [Serviços AWS Implementados](#serviços-aws-implementados)
 4. [API](#api)
 5. [Processo de Deploy](#processo-de-deploy)
 6. [Criação do Código](#criação-do-código)
 7. [Link Slack](#executando-o-projeto)
-8. [Referências](#referencias)
-9. [Colaboradores](#colaboradores)
+8. [Referências](#referências)
 
 ## Organização da Equipe
 
@@ -166,33 +161,3 @@ A API está integrada a um bot no Slack, automatizando o atendimento de uma loca
 
 - [Amazon Lex V2](https://docs.aws.amazon.com/lexv2/latest/dg/what-is.html)
 - [Polly](https://docs.aws.amazon.com/polly/latest/dg/what-is.html)
-
-## Colaboradores
-
-<table align="center">
-  <tr align="center">
-    <td>
-      <a href="https://github.com/Gustavo2022003">
-        <img src="https://avatars.githubusercontent.com/u/54781049?v=4" width=100 />
-        <p>Gustavo <br/>Gutierrez</p>
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/RubensLFerreira">
-        <img src="https://avatars.githubusercontent.com/RubensLFerreira" width=100 />
-        <p>Rubens <br/>Lima</p>
-      </a>
-    </td>
-      </td>
-      <td>
-      <a href="https://github.com/joaoferrariac">
-        <img src="https://avatars.githubusercontent.com/u/106271671?v=4" width=100 />
-        <p>João  <br/>Ferrari</p>
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/devrodrigocsoares">
-        <img src="https://avatars.githubusercontent.com/u/63052661?v=4" width=100 />
-        <p>Rodrigo <br/>Cadeira</p>
-      </a>
-  </tr>
